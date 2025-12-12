@@ -1,4 +1,5 @@
 ﻿using BasicRumiToGregorianConverter.Exceptions;
+using BasicRumiToGregorianConverter.Model;
 
 namespace Tirnavali.BasicRumiToGregorianConverter.Application
 {
