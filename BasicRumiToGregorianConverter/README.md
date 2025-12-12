@@ -14,8 +14,9 @@ Gregorian date as input and returns the corresponding Rumi date.
 
 # Tirnavali.BasicRumiToGregorianCoverter
 
-[![NuGet Version](https://img.shields.io/nuget/v/Tirnavali.BasicRumiToGregorianCoverter?style=for-the-badge)](https://www.nuget.org/packages/Tirnavali.BasicRumiToGregorianCoverter)
-[![GitHub](https://img.shields.io/github/license/tirnavali/Tirnavali.BasicRumiToGregorianCoverter?style=for-the-badge)](https://github.com/tirnavali/Tirnavali.BasicRumiToGregorianCoverter/blob/main/LICENSE)
+# Tirnavali.BasicRumiToGregorianConverter
+
+[![NuGet Version](https://img.shields.io/nuget/v/Tirnavali.BasicRumiToGregorianConverter?style=for-the-badge)](https://www.nuget.org/packages/Tirnavali.BasicRumiToGregorianConverter/)
 
 ## 🌟 Genel Bakış
 
