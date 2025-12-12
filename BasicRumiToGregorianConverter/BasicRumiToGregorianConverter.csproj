@@ -1,10 +1,37 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>library</OutputType>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-  </PropertyGroup>
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFrameworks>net8.0;net6.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<PackageId>Tirnavali.BasicRumiToGregorianConverter</PackageId>
+		<Version>1.1.0</Version>
+		<Authors>Sercan TIRNAVALI</Authors>
+		<Description>
+			A lightweight C# library for converting dates from the Rumi (Ottoman Fiscal) calendar to the Gregorian calendar, 
+			handling historical offsets accurately. | **Rumi (Mali) Takvimi tarihlerini Miladi (Gregoryen) Takvime doğru bir şekilde dönüştüren 
+			C# kütüphanesidir.**
+		</Description>
+		<PackageTags>rumi;ottoman;gregorian;calendar;dateconversion;takvim</PackageTags>
+
+		<PackageProjectUrl>https://github.com/tirnavali/Tirnavali.Converter.BasicRumiToGregorian</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/tirnavali/Tirnavali.Converter.BasicRumiToGregorian.git</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+
+		<Copyright>Copyright © Sercan TIRNAVALI 2025</Copyright>
+
+		<PackageReleaseNotes>Initial stable release (v1.0.0). Supports conversion from Rumi years 1256 to 1341.</PackageReleaseNotes>
+
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="README.md" Pack="true" PackagePath="\" />
+	</ItemGroup>
 
 </Project>
