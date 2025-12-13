@@ -1,4 +1,4 @@
-﻿# Tirnavali.BasicRumiToGregorianCoverter
+﻿# BasicRumiToGregorianCoverter
 
 This basic Rumi calender convert is a static Converter class
 for converting Gregorian dates to Rumi dates.
@@ -12,15 +12,13 @@ Gregorian date as input and returns the corresponding Rumi date.
 > 
 	Converter.ConvertToGregorian(1322, 10,31); -> 1907-01-13
 
-# Tirnavali.BasicRumiToGregorianCoverter
-
-# Tirnavali.BasicRumiToGregorianConverter
+# BasicRumiToGregorianConverter
 
 [![NuGet Version](https://img.shields.io/nuget/v/Tirnavali.BasicRumiToGregorianConverter?style=for-the-badge)](https://www.nuget.org/packages/Tirnavali.BasicRumiToGregorianConverter/)
 
 ## 🌟 Genel Bakış
 
-**Tirnavali.BasicRumiToGregorianCoverter**, C# dilinde yazılmış hafif bir kütüphanedir. Osmanlı İmparatorluğu'nda 1840'tan (Rumi 1256) 1925'e (Rumi 1341) kadar resmi olarak kullanılan **Rumi (Mali) Takvimi** tarihlerini **Miladi (Gregoryen) Takvime** dönüştürmek için tasarlanmıştır.
+**BasicRumiToGregorianConverter**, C# dilinde yazılmış hafif bir kütüphanedir. Osmanlı İmparatorluğu'nda 1840'tan (Rumi 1256) 1925'e (Rumi 1341) kadar resmi olarak kullanılan **Rumi (Mali) Takvimi** tarihlerini **Miladi (Gregoryen) Takvime** dönüştürmek için tasarlanmıştır.
 
 Bu kütüphane, Rumi ve Miladi takvimler arasındaki farklılıkları ve tarihsel geçiş dönemlerini (özellikle 12 ve 13 günlük farkların uygulandığı zaman dilimlerini) hassasiyetle ele alır.
 
