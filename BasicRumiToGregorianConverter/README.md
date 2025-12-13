@@ -1,4 +1,4 @@
-﻿# BasicRumiToGregorianCoverter
+# BasicRumiToGregorianConverter
 
 This basic Rumi calender convert is a static Converter class
 for converting Gregorian dates to Rumi dates.
@@ -12,13 +12,13 @@ Gregorian date as input and returns the corresponding Rumi date.
 > 
 	Converter.ConvertToGregorian(1322, 10,31); -> 1907-01-13
 
-# BasicRumiToGregorianConverter
+# Tirnavali.BasicRumiToGregorianConverter
 
 [![NuGet Version](https://img.shields.io/nuget/v/Tirnavali.BasicRumiToGregorianConverter?style=for-the-badge)](https://www.nuget.org/packages/Tirnavali.BasicRumiToGregorianConverter/)
 
 ## 🌟 Genel Bakış
 
-**BasicRumiToGregorianConverter**, C# dilinde yazılmış hafif bir kütüphanedir. Osmanlı İmparatorluğu'nda 1840'tan (Rumi 1256) 1925'e (Rumi 1341) kadar resmi olarak kullanılan **Rumi (Mali) Takvimi** tarihlerini **Miladi (Gregoryen) Takvime** dönüştürmek için tasarlanmıştır.
+**.BasicRumiToGregorianConverter**, C# dilinde yazılmış hafif bir kütüphanedir. Osmanlı İmparatorluğu'nda 1840'tan (Rumi 1256) 1925'e (Rumi 1341) kadar resmi olarak kullanılan **Rumi (Mali) Takvimi** tarihlerini **Miladi (Gregoryen) Takvime** dönüştürmek için tasarlanmıştır.
 
 Bu kütüphane, Rumi ve Miladi takvimler arasındaki farklılıkları ve tarihsel geçiş dönemlerini (özellikle 12 ve 13 günlük farkların uygulandığı zaman dilimlerini) hassasiyetle ele alır.
 
@@ -29,13 +29,13 @@ Paketi projenize kurmanın en kolay yolu .NET CLI veya NuGet Paket Yöneticisi'n
 ### .NET CLI ile
 
 ```bash
-dotnet add package Tirnavali.BasicRumiToGregorianCoverter
+dotnet add package Tirnavali.BasicRumiToGregorianConverter
 ````
 
 ### NuGet Paket Yöneticisi (Package Manager Console) ile
 
 ```powershell
-Install-Package Tirnavali.BasicRumiToGregorianCoverter
+Install-Package Tirnavali.BasicRumiToGregorianConverter
 ```
 
 ## 🛠 Kullanım
@@ -45,7 +45,7 @@ Kütüphane, `Converter` adlı statik bir sınıf ve tüm dönüşüm mantığı
 ### Basit Dönüşüm Örneği
 
 ```csharp
-using Tirnavali.BasicRumiToGregorianCoverter.Application;
+using Tirnavali.BasicRumiToGregorianConverter.Application;
 using System;
 
 public class DateConversionExample
